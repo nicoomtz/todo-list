@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  max-width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  background-color: cadetblue;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+#inputElement {
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 15px;
+  border: none;
+  margin: 0px 10px;
+}
+
+#submitElement {
+  border-radius: 10px;
+  padding: 10px;
+}
+
+li {
+  width: 300px;
+  padding: 10px;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  background-color: #f1f2f4;
+  border-radius: 10px;
+  margin: 10px 0px;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 50px;
+  background-color: ;
+}
